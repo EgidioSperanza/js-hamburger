@@ -45,6 +45,8 @@ footer{
 .header-right ul, .sitemap ul {
     list-style: none;
     height: 100%;
+}
+.header-right ul {
     text-align: right;
 }
 .header-right ul li, .sitemap ul li {
