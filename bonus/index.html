@@ -1,101 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <title>Hamburger Menu</title>
-    </head>
-    <body>
-
-        <header>
-            <div class="header-left">
-                <img src="../logo.png" alt="">
-            </div>
-            <div class="header-right">
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Scopri il Corso</a>
-                    </li>
-                    <li>
-                        <a href="#">La nostra storia</a>
-                    </li>
-                    <li>
-                        <a href="#" class="cta">Iscriviti</a>
-                    </li>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ----FONT AWESOME---- -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <!-- ----CSS---- -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Bonus Hamburger Menù</title>
+  </head>
+  <body>
+    <header>
+        <div class="row">
+            <img src="./img/logo.png" alt="">
+            <div class="header_rt">
+                <ul class="default">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#" class="btn">Iscriviti!</a></li>
                 </ul>
-                <a href="#">
+                <a class="hamburger_menu mobile" href="#">
                     <i class="fas fa-bars"></i>
                 </a>
             </div>
-            <div class="hamburger-menu">
+        </div>
+        <div class="display_menu hamburger">
+            <div class="row">
                 <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Scopri il Corso</a>
-                    </li>
-                    <li>
-                        <a href="#">La nostra storia</a>
-                    </li>
-                    <li>
-                        <a href="#">Iscriviti</a>
-                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
                 </ul>
                 <a href="#" class="close">
                     <i class="fas fa-times"></i>
                 </a>
             </div>
-        </header>
-        <div class="container">
-            <main>
-                
-            </main>
-            <footer>
-                <a id="show_more" href="#">Show More</a>
-                <div class="sitemap">
-                    <ul>
-                        <li>
-                            <a href="#">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#">Link 4</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="show_more_footer">
-                    <ul>
-                        <li>
-                            <a href="#">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#">Link 4</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="foot_close">
-                        <i class="fas fa-times"></i>
-                    </a>
-            </footer>
+            <div>                
+                <a href="#">Iscriviti!</a>
+            </div>
+
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="main.js" charset="utf-8"></script>
-    </body>
+    </header>
+    <main>
+        <div class="jumbotron">
+            <h1>Lorem Ipsum</h1>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p class="show_more_jumbo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam consequatur nam porro recusandae sed odit necessitatibus eligendi reiciendis enim nostrum dignissimos delectus neque, vero perferendis animi rerum totam maiores!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quae quaerat doloremque aperiam praesentium nostrum, magnam laborum doloribus fugit ipsa optio! Ea accusantium minima sunt dignissimos ab quae nemo eaque!
+            </p>
+
+            <div class="jumbo_menu">
+                Show More
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="footer_lt">
+                <ul class="default">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#" class="btn">Iscriviti!</a></li>
+                </ul>
+            </div>
+            <div class="footer_rt">
+                <a href="#" class="default">Contattaci!</a>
+                <a class="mobile footer_menu" href="#">
+                    <span>Show More</span>
+                </a>
+            </div>
+        </div>
+        <div class="display_menu sitemap">
+            <div class="row">
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                    <li><a href="#">Link 5</a></li>
+                    <li><a href="#">Iscriviti!</a></li>
+                </ul>
+                <a href="#" class="close_sitemap">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+            <div>                
+                <a href="#">Contattaci!</a>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ----JAVASCRIPT---- -->
+    <script src="./js/main.js"></script>
+  </body>
 </html>
