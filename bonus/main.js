@@ -17,6 +17,6 @@ function addClass(listener, listen,  x, myClass){
 }
 function removeClass(listener, listen,  x, myClass){
     listener.addEventListener(listen, ()=>{
-        x.classList.removeClass(myClass);
+        x.classList.remove(myClass);
     });
 }
